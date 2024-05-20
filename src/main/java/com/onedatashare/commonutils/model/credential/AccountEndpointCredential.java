@@ -1,4 +1,4 @@
-package com.onedatashare.commonservice.model.credential;
+package com.onedatashare.commonutils.model.credential;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;

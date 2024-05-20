@@ -1,6 +1,6 @@
-package com.onedatashare.commonservice.model.credential;
+package com.onedatashare.commonutils.model.credential;
 
-import com.onedatashare.commonservice.error.InvalidTypeException;
+import com.onedatashare.commonutils.error.InvalidTypeException;
 import lombok.Data;
 import lombok.SneakyThrows;
 

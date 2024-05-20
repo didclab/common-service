@@ -1,4 +1,4 @@
-package com.onedatashare.commonservice.model.credential;
+package com.onedatashare.commonutils.model.credential;
 
 public enum EndpointCredentialType {
     box,

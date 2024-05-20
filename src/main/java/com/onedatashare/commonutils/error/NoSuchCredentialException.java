@@ -1,6 +1,6 @@
-package com.onedatashare.commonservice.error;
+package com.onedatashare.commonutils.error;
 
-import com.onedatashare.commonservice.model.credential.EndpointCredentialType;
+import com.onedatashare.commonutils.model.credential.EndpointCredentialType;
 
 public class NoSuchCredentialException extends Exception{
     public NoSuchCredentialException(EndpointCredentialType type, String credId){

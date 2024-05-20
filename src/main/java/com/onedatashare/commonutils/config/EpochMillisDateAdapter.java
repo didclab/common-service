@@ -1,4 +1,4 @@
-package com.onedatashare.commonservice.config;
+package com.onedatashare.commonutils.config;
 
 import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonReader;

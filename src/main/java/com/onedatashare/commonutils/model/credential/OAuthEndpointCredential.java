@@ -1,7 +1,7 @@
-package com.onedatashare.commonservice.model.credential;
+package com.onedatashare.commonutils.model.credential;
 
 import com.google.gson.annotations.JsonAdapter;
-import com.onedatashare.commonservice.config.EpochMillisDateAdapter;
+import com.onedatashare.commonutils.config.EpochMillisDateAdapter;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;

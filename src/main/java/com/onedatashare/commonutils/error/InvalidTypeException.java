@@ -1,4 +1,4 @@
-package com.onedatashare.commonservice.error;
+package com.onedatashare.commonutils.error;
 
 public class InvalidTypeException extends Exception{
     public InvalidTypeException(String typeExpected){
