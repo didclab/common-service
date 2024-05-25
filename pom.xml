@@ -60,7 +60,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub didclab Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/didclab/common-service</url>
+			<url>https://maven.pkg.github.com/didclab/commonutils</url>
 		</repository>
 	</distributionManagement>
 
