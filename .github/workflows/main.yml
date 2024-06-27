@@ -27,6 +27,9 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '21'
+          server-id: central
+          server-username: MVN_CENTRAL_USERNAME
+          server-password: MVN_CENTRAL_PASSWORD
       
       - name: Calculate version
         id: calculate-version
