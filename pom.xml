@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>io.github.rrekhi1</groupId>
 	<artifactId>commonutils</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<name>io.github.rrekhi1:commonutils</name>
 	<description>Common artifact for onedatashare repos</description>
 	<packaging>jar</packaging>
@@ -163,6 +163,16 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+<!--	<distributionManagement>-->
+<!--		<snapshotRepository>-->
+<!--			<id>maven-central-snapshots</id>-->
+<!--			<url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>-->
+<!--		</snapshotRepository>-->
+<!--		<repository>-->
+<!--			<id>maven-central-release</id>-->
+<!--			<url>https://s01.oss.sonatype.org/content/repositories/releases/</url>-->
+<!--		</repository>-->
+<!--	</distributionManagement>-->
 <!--	<build>-->
 <!--		<pluginManagement>-->
 <!--			<plugins>-->
@@ -181,5 +191,12 @@
 <!--			<url>https://maven.pkg.github.com/didclab/commonutils</url>-->
 <!--		</repository>-->
 <!--	</distributionManagement>-->
-
+	<profiles>
+		<profile>
+			<id>central</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+		</profile>
+	</profiles>
 </project>
